@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #Just for fun. This is an "auto exploit" for the Hack The BoX Machine Sau
-#You will need the rev.sh file in the same dir as this file.
+#You will need the rev.sh file, change the IP to your local attack box and save it in the same dir as this file.
 import requests
 import json
 import random
