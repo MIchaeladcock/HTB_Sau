@@ -12,7 +12,7 @@ After completing the Hack The Box challenge (HTB) 'Sau,' I found the web exploit
 4. Edit the "rev.sh" file to replace the placeholder IP address with your tun0 IP address, then save the changes.
 4. In the directory containing "sau_main.py" and "rev.sh," open a terminal and start a Python web server listening on port 80 with the command: ```python3 -m http.server 80```. Keep this terminal open.
 5. Open a new terminal or terminal pane and initiate a Netcat listener on port 9009 using the command: ```nc -nvlp 9009```. Do not close this terminal.
-6. In a separate terminal or a new pane, make "sau_main.py" executable by running ```chmod +x sau_main.py```, then execute the script by following the on-screen prompts. You will be asked to enter the HTB machine's IP address and your local tun0 IP.
+6. In a separate terminal or a new pane, make "sau_main.py" executable by running ```chmod +x sau_main.py```, then execute the script ```python3 ./sau_main.py``` and follow the on-screen prompts. You will be asked to enter the HTB machine's IP address and your local tun0 IP.
 7. Enjoy your shell :)
 
 
